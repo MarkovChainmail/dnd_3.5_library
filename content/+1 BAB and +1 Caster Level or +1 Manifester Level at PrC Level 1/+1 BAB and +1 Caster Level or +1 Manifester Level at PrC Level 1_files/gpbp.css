@@ -1,0 +1,116 @@
+/* ********************************* */
+/* Styles for Good Post/Bad Post mod */
+/* ********************************* */
+
+.gpbp_vote
+{
+	float: right;
+	margin: 4px 0;
+	padding-right: 15px;
+}
+.gpbp_score
+{
+	margin-right: 3px;
+}
+.gpbp_vote img
+{
+	margin-bottom: -2px;
+}
+.gpbp_vote span
+{
+	margin: auto 4px;
+}
+.gpbp_greyed
+{
+	background: url(/web/20140909170244im_/http://www.minmaxboards.com/Themes/default/images/gpbp_grey_stripes.png) #CCC repeat-x;
+	padding: 9px 9px 0;
+}
+.gpbp_greyed a:link, .gpbp_greyed a:visited
+{
+	color: #444;
+}
+.gpbp_show:link, .gpbp_show:visited
+{
+	text-decoration: underline;
+}
+/* CSS post hiding. The parent>child hierarchy should be heavily theme-dependant. */
+/* This mod makes sure that the MEMBER INFO, the POST CONTENTS, the BUTTONS and   */
+/* the EXTRA INFORMATION CONTAINERS (IP Address) are hidden in the default theme. */
+.gpbp_hider .poster ul,
+.gpbp_hider .postarea,
+.gpbp_hider .moderatorbar .reportlinks
+{
+	display: none;
+}
+/* Force display when needed to */
+.gpbp_do_show
+{
+	display: inline !important;
+}
+/* Curve assigns padding to divs */
+.gpbp_hider {
+	padding: 11px 0;
+}
+/* clearfix for Curve's floating poster names on hidden posts */
+.gpbp_greyed:after
+ {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	padding-top: 1em;
+}
+/* Voter list icon */
+.gpbp_voterslist {
+	cursor: pointer;
+}
+.gpbp_voterslist_select {
+	display: none;
+	float: right;
+	margin-bottom: -2px;
+	margin-left: 4px;
+	background: transparent;
+	border: 1px solid transparent;
+}
+.gpbp_voterslist_select option {
+	font-size: 0.9em;
+	cursor: pointer;
+	padding-left: 15px;
+}
+/* "Hide again" box */
+.gpbp_hide_again {
+	display: inline;
+	position: relative;
+	padding: 2px;
+	border: 1px solid gray;
+	cursor: pointer;
+	background: white;
+	color: black;
+	font-style: italic;
+}
+.gpbp_hide_again:hover {
+	text-decoration: underline;
+}
+
+/*
+     FILE ARCHIVED ON 17:02:44 Sep 09, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:18:13 Sep 01, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  PetaboxLoader3.resolve: 181.278 (3)
+  load_resource: 217.087
+  exclusion.robots.policy: 0.251
+  esindex: 0.145
+  exclusion.robots: 0.269
+  captures_list: 212.418
+  PetaboxLoader3.datanode: 122.195 (5)
+  CDXLines.iter: 18.221 (3)
+  RedisCDXSource: 47.686
+  LoadShardBlock: 135.519 (3)
+*/
