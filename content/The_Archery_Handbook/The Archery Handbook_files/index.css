@@ -33,10 +33,10 @@ table
 /* Set a fontsize that will look the same in all browsers. */
 body
 {
-	background: #000 url(/web/20170108041636im_/http://www.minmaxboards.com/Themes/Thing/images/theme/thing-bg.png) no-repeat fixed;
 	font: 78%/130% "Verdana", "Helvetica", sans-serif;
 	margin: 0 auto;
 	padding: 15px 0;
+	color: #920ac4;
 }
 
 /* Help popups require a different styling of the body element. */
@@ -78,7 +78,7 @@ form
 input, button, select, textarea
 {
 	font: 95%/115% verdana, Helvetica, sans-serif;
-	color: #000;
+	color: #f96f00;
 	background: #fff;
 	border: 1px solid #7f9db9;
 	padding: 2px;
@@ -3760,6 +3760,14 @@ fieldset.spoiler div.spoilerbody
 	border: 0px;
 	padding: 0em;
 }
+
+body {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-right: 150px;
+	margin-left: 80px;
+}
+
 /*
      FILE ARCHIVED ON 04:16:36 Jan 08, 2017 AND RETRIEVED FROM THE
      INTERNET ARCHIVE ON 22:42:12 Aug 30, 2019.
